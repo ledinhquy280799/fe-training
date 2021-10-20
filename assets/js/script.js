@@ -25,6 +25,6 @@ $(window).on("load", move());
 $('.owl-carousel').owlCarousel({
     items:1,
     lazyLoad:true,
-    loop:false,
+    loop:true,
     margin:10
 });

@@ -2,7 +2,7 @@ body {
     font-family: poppins;
     color: #8c9597;
     line-height: 26px;
-    background-color: #fff;
+    background-color: white;
     font-weight: 400;
     font-size: 16px;
 }
@@ -83,7 +83,7 @@ li {
     line-height: 40px;
     font-weight: 700;
     font-size: 14px;
-    color: #fff;
+    color: white;
     position: relative;
     float: left;
     font-family: lato;
@@ -129,7 +129,7 @@ span.span-dot  {
     margin: 0 15px;
     padding: 0 70px;
     display: inline-block;
-    border: 3px solid #fff;
+    border: 3px solid white;
     border-radius: 3px;
     font-weight: 700;
     font-size: 16px;
@@ -242,7 +242,7 @@ span.span-dot  {
     border-radius: 3px;
     font-weight: 400;
     font-size: 16px;
-    color: #fff;
+    color: white;
     font-family: lato;
 }
 
@@ -406,7 +406,7 @@ h3 {
     margin: 0;
     padding: 0;
     border-left: none;
-    color: #fff;
+    color: white;
     font-size: 16px;
     font-family: lato;
     font-weight: 400;
@@ -429,7 +429,7 @@ h3 {
 
 #testimonials .section-content .testimonials-carousel .testimonial-meta {
     width: 100%;
-    color: #fff;
+    color: white;
     font-family: poppins;
 }
 
@@ -446,7 +446,7 @@ h3 {
     width: 12px;
     height: 12px;
     padding: 0;
-    background-color: #fff;
+    background-color: white;
     margin: 0 7.5px;
     display: inline-block;
     transition: all .3s;
@@ -463,15 +463,6 @@ h3 {
 #services .section-header {
     width: 100%;
     margin-bottom: 65px;
-}
-
-.front-page-section .section-header .section-description {
-    margin-bottom: 0;
-    line-height: 26px;
-    font-size: 16px;
-    color: #8c9597;
-    font-family: lato;
-    font-weight: 400;
 }
 
 .fa {
@@ -533,7 +524,7 @@ h5 {
 
 #latest-news .section-content .post {
     width: 100%;
-    background-color: #fff;
+    background-color: white;
     padding-bottom: 40px;
     text-align: left;
     min-height: 547px;
@@ -592,17 +583,17 @@ h5 {
     line-height: 24px;
     display: block;
     font-size: 20px;
-    color: #fff;
+    color: white;
     text-transform: uppercase;
     font-family: poppins;
     font-weight: 700;
 }
 
-#counter .widget_illdy_counter:nth-child(1),
+/* #counter .widget_illdy_counter:nth-child(1),
 #counter .widget_illdy_counter:nth-child(2),
 #counter .widget_illdy_counter:nth-child(3) {
     margin-top: 0;
-}
+} */
 
 #counter .col-sm-4 {
     border-right: 1px solid white;
@@ -739,7 +730,7 @@ h6 {
     display: inline-block;
     border-radius: 50%;
     font-size: 13px;
-    color: #fff;
+    color: white;
     text-align: center;
     transition: all .3s;
     border: 1px solid;
@@ -843,7 +834,7 @@ a {
 
 #contact-us {
     width: 100%;
-    background-color: #fff;
+    background-color: white;
     padding: 40px 0 50px;
     text-align: center;
 }
@@ -994,14 +985,14 @@ input[type=text], input[type=email], input[type=number], input[type=search], tex
 #contact-us .section-content .wpcf7-form p .wpcf7-submit {
     width: auto;
     height: 44px;
-    background-color: #fff;
+    background-color: white;
     margin: 40px 0 0;
     padding: 0 60px;
     border: none;
     border-radius: 5px;
     display: inline-block;
     font-weight: 700;
-    color: #fff;
+    color: white;
     background-color: #f1d204;
     float: right;
     transition: all .3s;
@@ -1020,7 +1011,7 @@ input[type=text], input[type=email], input[type=number], input[type=search], tex
     border: 0;
     font-family: lato,sans-serif;
     font-weight: 700;
-    color: #fff;
+    color: white;
     transition: all .3s;
     border-radius: 3px;
 }
