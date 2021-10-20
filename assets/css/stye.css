@@ -1,0 +1,1035 @@
+body {
+    font-family: poppins;
+    color: #8c9597;
+    line-height: 26px;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.element-center {
+    margin: 0 auto;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    display: block;
+    word-wrap: break-word;
+}
+
+ul, ol {
+    font-size: 16px;
+    font-family: lato;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+ul {
+    font-size: 16px;
+    font-family: lato;
+    line-height: 26px;
+    font-weight: 40;
+}
+
+#header {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.top-header {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.top-header.header-navigation {
+    float: right;
+}
+
+.top-header.row {
+    display: flex;
+    align-items: center;
+}
+
+.header-navigation {
+    float: right;
+}
+
+.header-front-page {
+    background-image: url(https://demo.colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-header.jpg);
+    background-attachment: fixed;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    margin-left: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+    float: left;
+    font-family: lato;
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 84px;
+    font-weight: 700;
+}
+
+.bottom-header {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding-top: 240px;
+    padding-bottom: 280px;
+    text-align: center;
+}
+
+span.span-dot  {
+    color: #ffde00;
+}
+
+#header .bottom-header .section-description {
+    line-height: 26px;
+    margin-bottom: 60px;
+    font-size: 16px;
+    font-family: lato;
+    font-weight: 400;
+    color: white;
+}
+
+.bottom-header h1 {
+    color: white;
+}
+
+.header-button-one {
+    width: auto;
+    height: 63px;
+    line-height: 57px;
+    background: rgba( 0, 0, 0, .2 );
+    margin: 0 15px;
+    padding: 0 70px;
+    display: inline-block;
+    border: 3px solid #fff;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 16px;
+    transition: all .3s;
+    min-width: 242px;
+    text-decoration: none;
+    color: white;
+}
+
+.header-button-two {
+    width: auto;
+    height: 63px;
+    line-height: 63px;
+    background: #f1d204;
+    margin: 0 15px;
+    padding: 0 70px;
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 16px;
+    transition: all .3s;
+    font-family: lato;
+    min-width: 242px;
+    text-decoration: none;
+    color: white;
+}
+
+.header-button-one:hover {
+    background-color: rgba( 0, 0, 0, .1 );
+    color: white;
+}
+
+.header-button-two:hover {
+    background-color: #6a4d8a;
+    color: white;
+}
+
+.col-sm-offset-2 {
+    margin-left: 16.66666667%;
+}
+
+.col-sm-8 {
+    width: 66.66666667%;
+}
+
+.front-page-section {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.front-page-section .section-header {
+    width: 100%;
+    margin-bottom: 65px;
+}
+
+.front-page-section .section-header .section-description {
+    margin-bottom: 0;
+    line-height: 26px;
+    font-size: 16px;
+    color: #8c9597;
+    font-family: lato;
+    font-weight: 400;
+}
+
+#about {
+    width: 100%;
+    padding: 65px 0 85px;
+    text-align: center;
+}
+
+#about .section-header h3 {
+    margin-bottom: 55px;
+}
+
+#about .skill {
+    width: 362px;
+	margin-left: 10px;
+	background-color: #ebebeb;
+	height: 2px;
+	position: relative;
+}
+
+#about .skill .skill-top {
+	height: 4px;
+	position: relative;
+	z-index: 10;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#about .skill .skill-top .circle {
+    width:9px;
+    height:9px;
+    border-radius:50%;
+    position:absolute;
+    top: -2.5px;
+    right: 0;
+}
+
+#about .skill .skill-top .value {
+    content: "";
+    width: 64px;
+    height: 29px;
+    line-height: 26px;
+    background-color: #000;
+    position: absolute;
+    top: -45px;
+    right: -28px;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    font-family: lato;
+}
+
+#about .skill .skill-top .value .triangle {
+    width: 0;
+    height: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-width: 5px 4.5px 0;
+    line-height: 0;
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    left: 0;
+}
+
+#about .skill .skill-bottom span {
+    margin-left: 8px;
+    line-height: 26px;
+    font-size: 16px;
+    font-family: lato;
+}
+
+#about .skill .skill-bottom {
+    width: 100%;
+    text-align: left;
+}
+
+.front-page-section .section-header h3 {
+    margin: 0 0 5px;
+    color: #545454;
+}
+
+h3 {
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+#projects {
+    width: 100%;
+    padding: 65px 0 0;
+    text-align: center;
+}
+
+#projects .project {
+    width: 100%;
+    height: 200px;
+    display: block;
+    position: relative;
+    background-size: cover;
+}
+
+#projects::before {
+    background-size: auto !important;
+    background-repeat: repeat !important;
+    background-image: url(https://demo.colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png) !important;
+}
+
+#full-width:before, #testimonials:before, #about:before, #team:before, #counter:before, #services:before, #projects:before {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: -101;
+}
+
+#projects .section-header {
+    margin-bottom: 65px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.inline-columns {
+    text-align: center;
+}
+
+#counter .col-sm-4:last-child {
+    border-right: none;
+}
+
+.inline-columns>div {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+#testimonials {
+    width: 100%;
+    padding: 50px 0 30px;
+    text-align: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+#testimonials::before {
+    background-image: url(https://demo.colorlib.com/illdy/wp-content/themes/illdy/layout/images/testiomnials-background.jpg) !important;
+    background-attachment: scroll !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: -101;
+}
+
+#testimonials .section-header h3 {
+    color: white;
+}
+
+#testimonials .section-content {
+    width: 100%;
+}
+
+#testimonials .section-content .testimonials-carousel {
+    width: 100%;
+}
+
+#testimonials .section-content .testimonials-carousel .testimonial-1 {
+    text-align: center;
+}
+
+#testimonials .section-content .testimonials-carousel .testimonial-image {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#testimonials .section-content .testimonials-carousel .testimonial-image img {
+    width: 127px;
+    height: 127px;
+    display: inline;
+    border-radius: 50%;
+}
+
+#testimonials .section-content .testimonials-carousel .testimonial-content {
+    width: 100%;
+    background-color: #6a4d8a;
+    margin-bottom: 48px;
+    padding: 50px 35px 25px;
+    position: relative;
+}
+
+#testimonials .section-content .testimonials-carousel .testimonial-content p {
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    border-left: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: lato;
+    font-weight: 400;
+}
+
+#testimonials .section-content .testimonials-carousel .testimonial-content:after {
+    content: "";
+    width: 0;
+    height: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-width: 19px 18px 0;
+    border-color: #6a4d8a transparent transparent transparent;
+    position: absolute;
+    right: 0;
+    bottom: -19px;
+    left: 0;
+}
+
+#testimonials .section-content .testimonials-carousel .testimonial-meta {
+    width: 100%;
+    color: #fff;
+    font-family: poppins;
+}
+
+#testimonials .section-content .testimonials-carousel .owl-controls {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#testimonials .section-content .testimonials-carousel .owl-controls .owl-dots {
+    width: 100%;
+}
+
+#testimonials .section-content .testimonials-carousel .owl-controls .owl-dots .owl-dot {
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    background-color: #fff;
+    margin: 0 7.5px;
+    display: inline-block;
+    transition: all .3s;
+    border-radius: 50%;
+    border: 1px solid transparent;
+}
+
+#services {
+    width: 100%;
+    padding: 65px 0 75px;
+    text-align: center;
+}
+
+#services .section-header {
+    width: 100%;
+    margin-bottom: 65px;
+}
+
+.front-page-section .section-header .section-description {
+    margin-bottom: 0;
+    line-height: 26px;
+    font-size: 16px;
+    color: #8c9597;
+    font-family: lato;
+    font-weight: 400;
+}
+
+.fa {
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 30px;
+    text-rendering: auto;
+}
+
+h5 {
+    font-size: 23px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+#latest-news {
+    width: 100%;
+    background-color: #222f36;
+    padding: 75px 0 85px;
+    text-align: center;
+}
+
+#latest-news .section-header {
+    margin-bottom: 55px;
+}
+
+#latest-news .latest-news-button {
+    width: auto;
+    min-height: 45px;
+    line-height: 45px;
+    background: #f1d204;
+    margin-bottom: 50px;
+    padding: 0 35px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    color: #f7f7f7;
+    border-radius: 3px;
+    transition: all .3s;
+    font-family: lato;
+    text-decoration: none;
+}
+
+#latest-news .illdy-blog-post {
+    margin-top: 30px;
+    min-height: 540px;
+}
+
+#latest-news .latest-news-button:hover {
+    background-color: #6a4d8a;
+}
+
+#latest-news .latest-news-button .fas {
+    margin-right: 12px;
+}
+
+#latest-news .section-header h3 {
+    color: white;
+}
+
+#latest-news .section-content .post {
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 40px;
+    text-align: left;
+    min-height: 547px;
+}
+
+#latest-news .section-content .post .post-image {
+    width: 100%;
+    height: 213px;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 37px;
+}
+
+#latest-news .section-content .post .post-title {
+    width: 100%;
+    padding: 0 30px;
+    color: #5e5e5e;
+    transition: all .3s;
+    display: block;
+}
+
+#latest-news .section-content .post .post-entry {
+    margin: 40px 0 55px;
+    padding: 0 30px;
+    line-height: 26px;
+    color: #8c9597;
+    font-size: 16px;
+}
+
+#latest-news .section-content .post .post-button {
+    line-height: 26px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-family: lato;
+    color: #f1d204;
+    transition: all .3s;
+    margin-left: 10px;
+}
+
+#latest-news .section-content .post .post-button .fas {
+    margin-right: 10px;
+}
+
+#counter {
+    width: 100%;
+    padding: 55px 0;
+    text-align: center;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+#counter .counter-description {
+    width: 100%;
+    line-height: 24px;
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: poppins;
+    font-weight: 700;
+}
+
+#counter .widget_illdy_counter:nth-child(1),
+#counter .widget_illdy_counter:nth-child(2),
+#counter .widget_illdy_counter:nth-child(3) {
+    margin-top: 0;
+}
+
+#counter .col-sm-4 {
+    border-right: 1px solid white;
+}
+
+#loader-wrapper {
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+#myProgress {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    width: 13%;
+    background-color: white;
+    border: 3px solid #F1D204;
+    border-radius: 15px;
+    padding: 4px;
+}
+
+#myBar {
+    height: 16px;
+    background-color: #F1D204;
+}
+
+#percent {
+    color: #F1D204;
+    position: relative;
+    right: -60%;
+    bottom: -55%;
+}
+
+#team {
+    width: 100%;
+    padding: 80px 0 100px;
+    text-align: center;
+}
+
+#team::before {
+    background-image: url(https://demo.colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png) !important;
+    background-repeat: repeat !important;
+    background-size: auto !important;
+    background-attachment: fixed;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: -101;
+}
+
+#team .section-header {
+    width: 100%;
+    margin-bottom: 85px;
+}
+
+#team .section-content .person {
+    width: 100%;
+}
+
+#team .section-content .person .person-image {
+    width: 125px;
+    margin-right: 25px;
+    float: left;
+}
+
+#team .section-content .person .person-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+#team .section-content .person .person-content {
+    text-align: left;
+    width: calc(100% - 150px);
+    float: right;
+}
+
+#team .section-content .person .person-content h6 {
+    width: 100%;
+    margin: 12px 0 5px;
+    color: #5e5e5e;
+}
+
+h6 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+#team .section-content .person .person-content p.person-position {
+    margin: 0 0 20px;
+    line-height: 26px;
+}
+
+#team .section-content .person .person-content p {
+    width: 100%;
+    margin: 0 0 10px;
+    color: #8c9597;
+    line-height: 20px;
+}
+
+#team .section-content .person .person-content .person-content-social {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#team .section-content .person .person-content .person-content-social li:first-child {
+    margin-left: 0;
+}
+
+#team .section-content .person .person-content .person-content-social li {
+    margin-left: 10px;
+    float: left;
+}
+
+#team .section-content .person .person-content .person-content-social li a {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    transition: all .3s;
+    border: 1px solid;
+}
+
+#footer {
+    width: 100%;
+    background-color: #292825;
+    padding: 40px 0;
+}
+
+.widget {
+    width: 100%;
+    margin-bottom: 75px;
+}
+
+.widget:last-child {
+    margin-bottom: 0;
+}
+
+#footer .widget .widget-title {
+    margin: 0 0 20px;
+    padding: 0;
+    color: white;
+}
+
+.widget .widget-title {
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#footer .widget .widget-title h5, #footer .widget .widget-title h5 a {
+    color: white;
+}
+
+a:hover, a:focus {
+    color: #6a4d8a;
+    text-decoration: none;
+}
+
+.widget .widget-title h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.widget ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.widger-ul li {
+    margin: 0;
+    width: 100%;
+    padding-left: 20px;
+    position: relative;
+    line-height: 38px;
+}
+
+a {
+    color: #8c979e;
+    text-decoration: none;
+}
+
+.widget ul li a {
+    line-height: 33px;
+    transition: all .3s;
+}
+
+.fa-angle-right {
+    margin-top: 12px;
+    color: #8c979e;
+    position: absolute;
+    left: 0;
+    line-height: 38px;
+}
+
+.bottom-footer {
+    padding: 30px 0;
+    text-align: center;
+    background-color: #242320;
+}
+
+.copyright {
+    width: 100%;
+    line-height: 1.2;
+    color: #8c9597;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.bottom-copyright {
+    color: white;
+}
+
+.copyright a {
+    color: #8c9597;
+    text-decoration: none;
+}
+
+#contact-us {
+    width: 100%;
+    background-color: #fff;
+    padding: 40px 0 50px;
+    text-align: center;
+}
+
+#contact-us .section-header {
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+#contact-us .section-content .contact-us-social a:hover, #contact-us .section-content .contact-us-social a:focus {
+    color: #333;
+}
+
+#contact-us .section-content .wpcf7-form p:nth-of-type(1), #contact-us .section-content .wpcf7-form p:nth-of-type(2), #contact-us .section-content .wpcf7-form p:nth-of-type(3) {
+    width: 33.33333333%;
+    margin: 0;
+    position: relative;
+    min-height: 1px;
+    display: block;
+    float: left;
+}
+
+.front-page-section .section-header h3 {
+    margin: 0 0 5px;
+    color: #545454;
+}
+
+#contact-us .section-content {
+    width: 100%;
+}
+
+#contact-us .section-content .contact-us-box {
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+}
+
+#contact-us .section-content .contact-us-box .box-left {
+    width: auto;
+    margin: 0;
+    padding: 0 20px 0 0;
+    border-right: 1px solid #e1e1e1;
+    display: table-cell;
+    font-weight: 400;
+    font-size: 16px;
+    color: #f1d204;
+    font-family: lato;
+    line-height: 26px;
+}
+
+#contact-us .section-content .contact-us-box .box-right {
+    width: auto;
+    margin: 0;
+    padding: 0 0 0 20px;
+    display: table-cell;
+}
+
+#contact-us .section-content .contact-us-box .box-right span {
+    width: 100%;
+    display: block;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #8c9597;
+    font-family: lato;
+}
+
+#contact-us .section-content .contact-us-box .box-right span {
+    width: 100%;
+    display: block;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #8c9597;
+    font-family: lato;
+}
+
+#contact-us .section-content .contact-us-box .box-right span a {
+    color: #8c9597;
+    text-decoration: none;
+}
+
+#contact-us .section-content .contact-us-social {
+    width: 100%;
+    text-align: right;
+}
+
+#contact-us .section-content .contact-us-social a {
+    margin-left: 15px;
+    font-size: 15px;
+    color: #8c9597;
+    transition: all 0.3s;
+}
+
+#contact-us .section-content .contact-us-social a:first-child {
+    margin-left: 0;
+}
+
+#contact-us .section-content .wpcf7-form p .wpcf7-text {
+    width: 100%;
+    height: 35px;
+    background-color: #fcfcfc;
+    padding: 0 20px;
+    border: 1px solid #e1e1e1;
+    outline: 0;
+    font-family: lato,sans-serif;
+    font-size: 16px;
+    color: #8c9597;
+    display: block;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+input[type=text], input[type=email], input[type=number], input[type=search], textarea {
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid #d7d7d7;
+    outline: 0;
+    font-family: lato,sans-serif;
+    font-weight: 400;
+    color: #8c9597;
+    resize: none;
+    display: block;
+    font-size: 16px;
+    line-height: 26px;
+    background-color: transparent;
+}
+
+#contact-us .section-content .wpcf7-form p span {
+    width: 100%;
+    display: block;
+}
+
+#contact-us .section-content .wpcf7-form p .wpcf7-textarea {
+    width: 100%;
+    height: 217px;
+    background-color: #fcfcfc;
+    margin: 0;
+    padding: 10px 20px;
+    border: 1px solid #e1e1e1;
+    outline: 0;
+    resize: none;
+    display: block;
+    color: #8c9597;
+    font-weight: 400;
+    font-family: lato,sans-serif;
+    font-size: 16px;
+}
+
+#contact-us .section-content .wpcf7-form p .wpcf7-submit {
+    width: auto;
+    height: 44px;
+    background-color: #fff;
+    margin: 40px 0 0;
+    padding: 0 60px;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: 700;
+    color: #fff;
+    background-color: #f1d204;
+    float: right;
+    transition: all .3s;
+    outline: 0;
+    font-family: lato;
+    font-size: 16px;
+    text-transform: initial;
+}
+
+#comments #respond .comment-form #input-submit, input[type=submit] {
+    width: auto;
+    height: 36px;
+    background-color: #f1d204;
+    padding: 0 40px;
+    display: inline-block;
+    border: 0;
+    font-family: lato,sans-serif;
+    font-weight: 700;
+    color: #fff;
+    transition: all .3s;
+    border-radius: 3px;
+}
+
+.wpcf7-form-control-wrap {
+    position: relative;
+}
+
+#contact-us .section-content .wpcf7-form {
+    width: 100%;
+    text-align: left;
+}
