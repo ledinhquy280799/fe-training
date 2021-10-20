@@ -612,10 +612,10 @@ h5 {
 }
 
 #myProgress {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
-    margin: 0 auto;
+    transform: translate(-50%, -50%);
     width: 13%;
     background-color: white;
     border: 3px solid #F1D204;
@@ -631,8 +631,10 @@ h5 {
 #percent {
     color: #F1D204;
     position: relative;
-    right: -60%;
-    bottom: -55%;
+    position: fixed;
+    top: 53%;
+    left: 54%;
+    transform: translate(-5%, -5%);
 }
 
 #team {
