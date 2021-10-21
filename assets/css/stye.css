@@ -41,8 +41,6 @@ ul {
 }
 
 .top-header {
-    /* position: relative;
-    z-index: 3; */
     position: fixed;
     top: 0;
     z-index: 990;
@@ -58,6 +56,17 @@ ul {
 .top-header.row {
     display: flex;
     align-items: center;
+}
+
+#header .top-header .header-navigation ul li a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+#header .top-header .header-navigation ul li:hover a, #header .top-header .header-navigation ul li:focus-within a {
+    color: #ffde00;
+    text-decoration: none;
 }
 
 .header-navigation {
@@ -111,14 +120,53 @@ span.span-dot  {
     color: #ffde00;
 }
 
+#header.header-front-page .bottom-header h1 {
+    color: white;
+}
+
+#header .bottom-header h1 {
+    margin: 0 0 29px;
+    line-height: 84px;
+    font-weight: 700;
+    font-size: 80px;
+    color: #fff;
+    font-family: poppins;
+}
+
+#header .top-header .header-navigation>ul {
+    margin-top: 20px;
+}
+
 #header .bottom-header .section-description {
     line-height: 26px;
     margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 16px;
     font-family: lato;
     font-weight: 400;
     color: white;
+    max-width: 750px;
 }
+
+/* @media only screen and (max-width: 992px)  {
+    .open-responsive-menu {
+        height: 100%;
+        background: 0 0;
+        padding: 26px 0;
+        border: none;
+        outline: 0;
+        display: block;
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .open-responsive-menu .fa {
+        font-size: 22px;
+        color: white;
+    }
+} */
 
 .bottom-header h1 {
     color: white;
@@ -198,10 +246,36 @@ span.span-dot  {
     font-weight: 400;
 }
 
+@media(min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+/* 
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+} */
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 #about {
     width: 100%;
     padding: 65px 0 85px;
     text-align: center;
+    margin-bottom: 55px;
 }
 
 #about .section-header h3 {
@@ -567,6 +641,11 @@ h5 {
     margin-left: 10px;
 }
 
+#latest-news .section-content .post .post-button:hover, #latest-news .section-content .post .post-button:focus {
+    text-decoration: none;
+    color: #6a4d8a;
+}
+
 #latest-news .section-content .post .post-button .fas {
     margin-right: 10px;
 }
@@ -621,21 +700,22 @@ h5 {
     transform: translate(-50%, -50%);
     width: 13%;
     background-color: white;
-    border: 3px solid #F1D204;
-    border-radius: 15px;
+    border: 2px solid #F1D204;
+    border-radius: 10px;
     padding: 4px;
 }
 
 #myBar {
     height: 16px;
     background-color: #F1D204;
+    border-radius: 3px;
 }
 
 #percent {
+    font-size: 13px;
     color: #F1D204;
-    position: relative;
     position: fixed;
-    top: 53%;
+    top: 54%;
     left: 54%;
     transform: translate(-5%, -5%);
 }
@@ -862,6 +942,27 @@ a {
     float: left;
 }
 
+#contact-us .section-content .wpcf7-form p:nth-of-type(1) {
+    padding-right: 15px;
+}
+
+#contact-us .section-content .wpcf7-form p:nth-of-type(2) {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#contact-us .section-content .wpcf7-form p:nth-of-type(3) {
+    padding-left: 15px;
+}
+
+#contact-us .section-content .wpcf7-form p:nth-of-type(4) {
+    width: 100%;
+    margin: 26px 0 0;
+    padding: 0;
+    display: block;
+    clear: both;
+}
+
 .front-page-section .section-header h3 {
     margin: 0 0 5px;
     color: #545454;
@@ -921,6 +1022,7 @@ a {
 }
 
 #contact-us .section-content .contact-us-social {
+    padding-right: 48px;
     width: 100%;
     text-align: right;
 }
@@ -990,8 +1092,7 @@ input[type=text], input[type=email], input[type=number], input[type=search], tex
 #contact-us .section-content .wpcf7-form p .wpcf7-submit {
     width: auto;
     height: 44px;
-    background-color: white;
-    margin: 40px 0 0;
+    margin: 40px 0 0 40px;
     padding: 0 60px;
     border: none;
     border-radius: 5px;
