@@ -28,3 +28,12 @@ $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10
 });
+$(document).ready(function(){
+  $(window).scroll(function() {
+    if ($(document).scrollTop() > 50) {
+      $(".top-header").css("background-color", "#545454");
+    } else {
+      $(".top-header").css("background-color", "transparent");
+    }
+  });
+});
