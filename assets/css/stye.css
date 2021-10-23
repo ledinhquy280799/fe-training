@@ -161,6 +161,8 @@ h1 {
         background-color: #fff;
         margin-top: 20px;
         display: none;
+        transform-origin: left;
+        animation: navBarShow ease-in 0.4s;
     }
 }
 
@@ -244,6 +246,17 @@ h1 {
     .responsive-menu.active {
         height: 496px;
         display: block;
+    }
+}
+
+@keyframes navBarShow {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
     }
 }
 
