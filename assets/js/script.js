@@ -36,4 +36,7 @@ $(document).ready(function(){
       $(".top-header").css("background-color", "transparent");
     }
   });
+  $('.open-responsive-menu').click(function() {
+    $('.responsive-menu').toggleClass('active');
+  });
 });

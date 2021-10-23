@@ -40,7 +40,7 @@ ul {
     position: relative;
 }
 
-.top-header {
+#header .top-header {
     position: fixed;
     top: 0;
     z-index: 990;
@@ -131,6 +131,12 @@ h1 {
 }
 
 @media only screen and (max-width: 992px) {
+    .open-responsive-menu:focus .fas {
+        color: #f1d204;
+    }
+}
+
+@media only screen and (max-width: 992px) {
     #header .top-header .header-navigation {
         display: none;
     }
@@ -159,8 +165,45 @@ h1 {
 }
 
 @media only screen and (max-width: 992px) {
+    .responsive-menu ul {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 992px) {
     .responsive-menu ul li {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .responsive-menu ul li a {
+        width: 100%;
+        padding: 15px;
+        display: block;
+        border-bottom: 1px solid #e4e4e4;
+        color: #000;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #header .top-header {
+        background-color: transparent !important;
+        position: relative;
+        z-index: 3;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .responsive-menu li a:focus {
+        background: #6a4d8a;
+        color: #fff;
     }
 }
 
@@ -194,6 +237,13 @@ h1 {
     .header-button-one, .header-button-two {
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .responsive-menu.active {
+        height: 496px;
+        display: block;
     }
 }
 
