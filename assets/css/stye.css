@@ -107,6 +107,10 @@ h1 {
     font-weight: 700;
 }
 
+.responsive-menu ul li {
+    margin-left: 0;
+}
+
 .open-responsive-menu {
     display: none;
 }
@@ -127,6 +131,13 @@ h1 {
     .open-responsive-menu .fas {
         font-size: 22px;
         color: white;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .header-button-one, .header-button-two {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
     }
 }
 
@@ -177,6 +188,29 @@ h1 {
 @media only screen and (max-width: 992px) {
     .responsive-menu ul li {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .responsive-menu ul li {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #percent {
+        top: 53% !important;
+        left: 67% !important;
+    }
+
+    #myProgress {
+        width: 41% !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #services #service-2, #services #service-3 {
+        margin-top: 40px;
     }
 }
 
@@ -859,7 +893,7 @@ h5 {
     font-size: 13px;
     color: #F1D204;
     position: fixed;
-    top: 54%;
+    top: 53%;
     left: 54%;
     transform: translate(-5%, -5%);
 }
@@ -1213,7 +1247,7 @@ a {
 
 @media only screen and (max-width: 767px) {
     #about .widget_skill:nth-child(2), #about .widget_skill:nth-child(3) {
-        margin-top: 66px;
+        margin-top: 116px;
     }
 }
 
