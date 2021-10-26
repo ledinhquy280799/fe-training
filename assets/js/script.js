@@ -40,3 +40,13 @@ $(document).ready(function(){
     $('.responsive-menu').toggleClass('active');
   });
 });
+
+$(window).resize(function(){
+  winWidth = $(window).width();
+  console.log(winWidth)
+  if (winWidth >= 850) {
+    $(".project").height(winWidth*.25);
+  } else {
+    $(".project").height(winWidth*.5);
+  }
+});

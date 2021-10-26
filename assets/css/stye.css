@@ -1204,6 +1204,25 @@ a {
     text-align: right;
 }
 
+@media only screen and (max-width: 767px) {
+    #team #person-2, #team #person-3 {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+    #team .section-content .person .person-image {
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #team .section-content .person .person-content {
+        float: none;
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     #contact-us .section-content .wpcf7-form p:nth-of-type(1), 
     #contact-us .section-content .wpcf7-form p:nth-of-type(2), 
@@ -1262,6 +1281,17 @@ a {
     font-size: 15px;
     color: #8c9597;
     transition: all 0.3s;
+}
+
+#contact-us label {
+    width: 100% !important;
+}
+
+.wpcf7 label {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: lato;
 }
 
 #contact-us .section-content .contact-us-social a:first-child {
