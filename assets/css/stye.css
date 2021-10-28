@@ -849,6 +849,18 @@ h5 {
     font-weight: 700;
 }
 
+#counter .counter-number {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    line-height: 1;
+    font-weight: 700;
+    font-size: 65px;
+    color: #fff;
+    font-family: poppins;
+    line-height: 70px;
+}
+
 /* #counter .widget_illdy_counter:nth-child(1),
 #counter .widget_illdy_counter:nth-child(2),
 #counter .widget_illdy_counter:nth-child(3) {
